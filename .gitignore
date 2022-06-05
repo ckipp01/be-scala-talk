@@ -1,1 +1,3 @@
-out/
+.scala-build/
+.metals/
+.bsp/
