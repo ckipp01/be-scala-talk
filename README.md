@@ -13,15 +13,16 @@ do the following.
   - `scala-cli run src` (this will run the app, but also create the `src/.bsp`
       which Metals needs)
   - `nvim src/Main.scala` or using whichever editor is your poison that supports
-      debugging with Metals
+      debugging with Metals. (If using VS Code make sure to open `src` as your
+      workspace root)
   - After you see the `src/.metals` created create the trace files which is what
       we'll look at during the talk
 
 ```
-touch $WORKSPACE/.metals/lsp.trace.json
-touch $WORKSPACE/.metals/bsp.trace.json
-touch $WORKSPACE/.metals/dap-server.trace.json
-touch $WORKSPACE/.metals/dap-client.trace.json
+touch src/.metals/lsp.trace.json
+touch src/.metals/bsp.trace.json
+touch src/.metals/dap-server.trace.json
+touch src/.metals/dap-client.trace.json
 ```
 
   - Close and re-open again to start getting logs piped to the trace files
