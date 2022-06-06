@@ -6,5 +6,4 @@ class MainTest extends munit.FunSuite:
   test("greeting") {
     val greeting = example.greeting("BE")
     assertEquals(greeting, "Hello there BE!")
-
   }

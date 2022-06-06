@@ -4,5 +4,5 @@ package example
 
 def greeting(who: String) = s"Hello there $who!"
 
-@main def hello(who: String) =
-  println(greeting(who))
+@main def hello() =
+  println(greeting("BE"))
