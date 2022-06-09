@@ -1,6 +1,5 @@
 ---
 author: Chris Kipp - BE Scala 
-date: MM-dd-YY
 paging: "%d/%d"
 ---
 
@@ -25,12 +24,15 @@ paging: "%d/%d"
      └──────┘          └──────┘          └────────────┘
 ```
 
+You can find the slides [here](https://github.com/ckipp01/be-scala-talk)
+
 
 ---
 
 # Hi, I'm Chris 👋
 
    - Software developer at **Lunatech**
+   - Online all over at `@ckipp01`
    - I enjoy working in open-source Scala tooling
       - **Metals** (maintainer)
       - **Scoverage** (maintainer)
@@ -296,7 +298,7 @@ Error: null
 
 - In Scala 2, this is added as a compiler plugin to your build so when your
     build server compiles your code, it produces semanticDB
-- In Scala 3, the compile as the ability to nativity be told to produce
+- In Scala 3, the compiler has the ability to nativity be told to produce
     semanticDB if asked to.
 - Metals utilizes this for code navigation, plus some other goodies
 
