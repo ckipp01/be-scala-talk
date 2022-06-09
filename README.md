@@ -1,4 +1,4 @@
-# BeScala Meetup Talk - 09-06-2022
+# BeScala Meetup Talk - 2022-06-09
 
 This contains the presentation and minimal code that I use for the [BeScala](https://www.meetup.com/BeScala/) meetup.
 
